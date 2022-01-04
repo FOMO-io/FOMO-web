@@ -72,7 +72,14 @@
 <footer>
 
 </footer>
-<script>
+<script src='scroll-out.js'></script>
+<script type='text/javascript'>
+
+    ScrollOut({
+        targets: 'div'
+    })
+
+    // to prevent scroll to top on reload
     document.addEventListener("DOMContentLoaded", function(event) { 
         var scrollpos = localStorage.getItem('scrollpos');
         if (scrollpos) window.scrollTo(0, scrollpos);

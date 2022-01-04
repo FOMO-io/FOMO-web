@@ -172,6 +172,9 @@ li {
     flex-direction: row;
     align-self: flex-start;
     justify-content: space-around;
+    transform: translateY(100px);
+    transition: ease-in 1.5s;
+    opacity: 0;
 }
 
 .para-4-content {
@@ -182,6 +185,12 @@ li {
     font-size: larger;
     padding: 10px;
     height: 80px;
+}
+
+
+.main-content-4[data-scroll='in'] {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .img-contaniner-4 {
