@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Glory?query=glory">
+    <script src="https://unpkg.com/eva-icons" crossorigin="anonymous"></script>
+    <title>F.O.M.O</title>
+</head>
+
+<header class='header'>
+    <i class='menu' data-eva="github">
+        for now
+    </i>
+    <div class='header-list'>
+        <li class='list-1'><a href="Home.html">home</a></li>
+        <li class='list-2'><a href="#">community</a></li>
+        <li class='list-3'><a href="#">news</a></li>
+        <li class='list-3'><a href="#">new features</a></li>
+    </div>
+</header>
+<body>
+    <div class='body-header'>
+        <h1 class='logo'>F.O.M.O</h1>
+        <div class='main-content'>
+            <div class='para-1-content'>
+                <p class='para-1'>
+                    Post about favorite events & share them with friends !
+                </p>
+            </div>
+            <div class='img-contaniner-1'>
+                <img class='img-1' src="images/previewed (2).png" alt='hey' />
+            </div>
+        </div>
+
+        <div class='main-content-2'>
+            <div class='img-contaniner-2'>
+                <img class='img-2' src="images/previewed (1).png" alt='hey' />
+            </div>
+            <div class='para-2-content'>
+                <p class='para-2'>
+                    Create and attend events to make the best of our platform.
+                </p>
+            </div>
+        </div>
+
+        <div class='main-content-3'>
+            <div class='para-3-content'>
+                <p class='para-3'>
+                    Interact with your guest list before each event.
+                </p>
+            </div>
+            <div class='img-contaniner-3'>
+                <img class='img-3' src="images/previewed (4).png" alt='hey' />
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+        var scrollpos = localStorage.getItem('scrollpos');
+        if (scrollpos) window.scrollTo(0, scrollpos);
+    });
+
+    window.onbeforeunload = function(e) {
+        localStorage.setItem('scrollpos', window.scrollY);
+    };
+</script>
+</html>
