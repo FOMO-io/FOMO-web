@@ -12,6 +12,10 @@ html { background-color: white }
 
 
 
+/***********************************/
+/* >>>>>>> header content <<<<<<< */
+/*********************************/
+
 .header {
     justify-content: flex-end;
     align-items: center;
@@ -29,9 +33,10 @@ html { background-color: white }
 
 .header-list {
     display: flex;
+    border-radius: 20px;
 }
 
-.header-list li a {
+ li a {
     display: inline-block;
     padding: 7px 15px;
     margin: 10px;
@@ -43,13 +48,17 @@ li {
     font-weight: 600;
 }
 
-
 .logo {
     height: 93vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+/* ******************************/
+/* >>>>>>> 1st content <<<<<<< */
+/* ****************************/
 
 .main-content {
     justify-content: space-around;
@@ -72,13 +81,18 @@ li {
 
 .img-contaniner-1 {
     height: 100vh;
-    width: 625px;
+    width: 800px;
 }
 
 .img-1 {
     height: 100%;
     background: none;
 }
+
+
+/* ******************************/
+/* >>>>>>> 2nd content <<<<<<< */
+/* ****************************/
 
 .main-content-2 {
     display: flex;
@@ -110,9 +124,13 @@ li {
 .img-2 {
     height: 100%;
     background: none;
-    margin-left: -60%;
+    margin-left: -80%;
 }
 
+
+/* ******************************/
+/* >>>>>>> 3rd content <<<<<<< */
+/* ****************************/
 
 .main-content-3 {
     justify-content: space-around;
@@ -134,10 +152,47 @@ li {
 
 .img-contaniner-3 {
     height: 100vh;
-    width: 625px;
+    width: 800px;
 }
 
 .img-3 {
     height: 100%;
     background: none;
+}
+
+
+/* ******************************/
+/* >>>>>>> 4th content <<<<<<< */
+/* ****************************/
+
+.main-content-4 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: space-around;
+}
+
+.para-4-content {
+    align-items: flex-start;
+    justify-content: center;
+    text-align: right;
+    line-height: 25px;
+    font-size: larger;
+    padding: 10px;
+    height: 80px;
+}
+
+.img-contaniner-4 {
+    width: 625px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-4 {
+    height: 100%;
+    background: none;
+    margin-left: -80%;
 }
