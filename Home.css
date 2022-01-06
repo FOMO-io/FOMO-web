@@ -2,8 +2,9 @@
 html { background-color: white }
 
 * {
-    /* -ms-overflow-style: none;
-    scrollbar-width: none; */
+    text-rendering: optimizeLegibility;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     text-decoration: none;
     font-family: "glory";
     color: black;
