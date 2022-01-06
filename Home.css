@@ -175,7 +175,7 @@ li {
     overflow: hidden;
     display: flex;
     padding: 20px;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 
@@ -368,7 +368,7 @@ li {
 /* ****************************/
 
 .main-content-2 {
-  /* opacity: 0; */
+  opacity: 0;
   display: flex;
   overflow: hidden;
   align-items: center;
@@ -561,7 +561,7 @@ li {
     flex-direction: row;
     overflow: hidden;
     display: flex;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .main-content-3[data-scroll='in'] {
@@ -767,7 +767,7 @@ li {
 /* ****************************/
 
 .main-content-4 {
-    /* opacity: 0; */
+    opacity: 0;
     display: flex;
     overflow: hidden;
     align-items: center;
